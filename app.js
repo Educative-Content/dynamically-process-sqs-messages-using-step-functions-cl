@@ -6,7 +6,7 @@ const fs = require('fs');
 
 const app = express();
 const port = 3000;
-apiUrl = 'https://7yrzrejnzl.execute-api.us-east-1.amazonaws.com/v1'; // Replace with your actual API endpoint
+apiUrl = 'https://<RestApiId>.execute-api.us-east-1.amazonaws.com/v1'; // Replace with your actual API endpoint
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({ extended: true }));
